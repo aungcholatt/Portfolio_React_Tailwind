@@ -20,9 +20,9 @@ function Intro() {
                className="text-cyan-600 hover:underline underline-offset-2 decoration-2 decoration-red-600"
                rel="noreferrer noopener"
             >
-               ForrestKnight
+               {/* ForrestKnight */}
             </a>{' '}
-            to more than 400k subscribers.
+            {/* to more than 400k subscribers. */}
          </p>
       </div>
    )
