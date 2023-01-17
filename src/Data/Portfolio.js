@@ -9,7 +9,7 @@ export default [
         title: 'MyPortfolio Website',
         imgUrl: 'src/assets/Portfoliophoto.png',
         stack: ['React', 'Tailwind', 'Vite'],
-        link: 'https://portfolio-app-23.web.app',
+        link: 'https://portfolio-acl.web.app/',
     },
     {
         title: 'Terminal Website',
