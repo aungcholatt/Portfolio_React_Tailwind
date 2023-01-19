@@ -17,7 +17,6 @@ const Header = () => {
   });
   return (
     <div>
-     <h1>Header</h1>
      <nav className="text-3xl flex justify-center gap-2 py-3 text-gray-600">
         <a href="https://github.com/aungcholatt"><AiFillGithub/></a>
         <a href="https://www.linkedin.com/in/aungcho-latt-580755243/"><AiFillLinkedin/></a>

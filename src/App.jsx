@@ -14,10 +14,10 @@ function App() {
   return (
     <div className="App">
       <Nav/>
-      <Header/>
       <Intro/>
       <Portfolio/>
       <TimelineItem/>
+      <Header/>
       {/* <Contact/>
       <Footer/> */}
     </div>
