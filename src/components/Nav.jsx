@@ -1,8 +1,9 @@
-import React from "react";
+import React , { useState } from "react";
 // import Button from './components/Button'
 import { DiCoffeescript } from "react-icons/di";
-import { AiOutlineMenu } from "react-icons/ai";
+import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 const Nav = () => {
+  const [ isMobile, setIsMobile ] = useState(false);
   const Links =[
       {name:"Home", link:"/"},
       {name:"Service", link:"/"},
@@ -20,9 +21,9 @@ const Nav = () => {
           <p className="md:text-blue-600">***</p>
         </div>
         <span className="text-3xl absolute right-8 top-6 cursor-pointer md:hidden block">
-          <icon name="menu" onclick="Menu(this)"><AiOutlineMenu/></icon>
+          <button onClick={() => setIsMobile(!isMobile)}> { isMobile ? (<AiOutlineMenu/>) : (<AiOutlineClose/>) }</button>
         </span>
-        <ul className="md:flex md:items-center md:pb-0 pb-12 absolute md:static bg-white md:z-auto z-[-1]left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-in">
+        <ul onClick={() => setIsMobile(false)} className="md:flex md:items-center md:pb-0 pb-12 absolute md:static bg-white md:z-auto z-[-1]left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-in">
           {
           Links.map((link)=>(
             <li key={link.name} className='md:ml-8'><a href={link.link}>{link.name}</a></li>
