@@ -1,8 +1,8 @@
 import React from 'react'
 import Nav from './components/Nav'
-import Header from './components/Header'
 import Intro from './components/Intro'
-import Portfolio from './components/Portfolio'
+import Project from './components/Project'
+import SocialIcon from './components/SocialIcon'
 import Contact from './components/Contact'
 import Timeline from './components/Timeline'
 import TimelineItem from './components/TimelineItem'
@@ -15,11 +15,8 @@ function App() {
     <div className="App">
       <Nav/>
       <Intro/>
-      <Portfolio/>
-      <TimelineItem/>
-      <Header/>
-      {/* <Contact/>
-      <Footer/> */}
+      <Project/>
+      <SocialIcon/>
     </div>
   )
 }

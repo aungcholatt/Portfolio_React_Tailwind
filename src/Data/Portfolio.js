@@ -12,13 +12,13 @@ export default [
         link: 'https://portfolio-acl.web.app/',
     },
     {
-        title: 'jQurey-Bootstrap Website',
+        title: 'jQuery-Bootstrap Website',
         imgUrl: 'https://firebasestorage.googleapis.com/v0/b/portfolio-acl.appspot.com/o/CarShowRoom.png?alt=media&token=da57b871-d083-46e3-b359-45af9c8133a6',
         stack: ['jQuery', 'Bootstrap', 'Html'],
         link: 'https://car-showroom-blush.vercel.app/',
     },
     {
-        title: 'jQurey-Bootstrap Website',
+        title: 'Laptop-Sale Website',
         imgUrl: 'https://firebasestorage.googleapis.com/v0/b/portfolio-acl.appspot.com/o/Screenshot%202023-01-20%20at%204.10.18%20PM.png?alt=media&token=4d21b700-f7bd-40f3-9f13-3fb95529ddb1',
         stack: ['Vue', 'Vuetify', 'Firebase'],
         link: 'https://vuelaptopsale.web.app/',
