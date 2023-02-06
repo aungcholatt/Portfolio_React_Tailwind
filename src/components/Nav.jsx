@@ -1,45 +1,3 @@
-// import React , { useState } from "react";
-// import { DiCoffeescript } from "react-icons/di";
-// import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
-// const Nav = () => {
-//   const [ nav, setNav ] = useState(false);
-//   const handleNav = () => {
-//     setNav(!nav)
-//   }
-//   const Links =[
-//       {name:"Home", link:"/"},
-//       {name:"About", link:"/"},
-//       {name:"Skills", link:"/"},
-//       {name:"Projects", link:"/"},
-//       {name:"Contact", link:"/"},
-//   ];
-//   return (
-//      <div className="fixed shadow-md w-full h-20 top-0 left-0">
-//       <div className="md:flex items-center justify-between bg-white py-4 md:px-10 px-7">
-//         <div className="font-bold text-2xl cursor-pointer flex items-center font-[Poppon] text-gray-800">
-//           <span className="text-5xl text-brown-600 mr-1 pt-2">
-//             <DiCoffeescript/>
-//         </span>
-//           <p className="md:text-blue-600">...</p>
-//         </div>
-//         <span className="text-3xl absolute right-8 top-6 cursor-pointer md:hidden block">
-//           <button onClick={() => setNav(!nav)}> { nav ? (<AiOutlineMenu/>) : (<AiOutlineClose/>) }</button>
-//         </span>
-//         <ul onClick="" className="md:flex md:items-center md:pb-0 pb-12 absolute md:static bg-white md:z-auto z-[-1]left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-in">
-//           {
-//           Links.map((link)=>(
-//             <li key={link.name} className='md:ml-8'><a href={link.link}>{link.name}</a></li>
-//             ))
-//           }
-//         </ul>
-//       </div>
-//      </div>
-
-//   );
-
-// };
-
-// export default Nav;
 
 import React, { useState, useEffect } from 'react';
 import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from 'react-icons/ai';
@@ -82,7 +40,7 @@ const Nav = () => {
              <span className="text-5xl text-brown-600 mr-1 pt-2">
                  <DiCoffeescript/>
              </span>
-          <p className="md:text-blue-600">...</p>
+          <p className="md:text-blue-600"></p>
        </div>
         <div>
           <ul style={{ color: `${linkColor}` }} className='hidden md:flex'>
